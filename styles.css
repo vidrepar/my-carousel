@@ -1,0 +1,41 @@
+#carousel-container{
+    width: 100%;
+    height: 300px;
+    background-color: #d3d3d3;
+    text-align: center;
+}
+
+#carousel-inner{
+    width: 90%;
+    background-color: #d3d3d3;
+    display: inline-block;
+}
+
+#right-scroll, #left-scroll{
+    width: 3%;
+    display: inline-block;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+#carousel-ul{
+    width: 9999px;
+    height: 280px;
+    padding: 0;
+    border: 1px solid #000;
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+}
+
+#carousel-ul li{
+    width: 200px;
+    overflow: hidden;
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+#carousel-ul li img{
+    width: 100%;
+}
